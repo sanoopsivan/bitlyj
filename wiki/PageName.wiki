@@ -1,0 +1,9 @@
+{{{
+
+import static com.rosaloves.bitlyj.Url;
+import static com.rosaloves.bitlyj.Bitly.*;
+
+Url url = as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07").call(shorten("http://rosaloves.com/stories/view/13"));
+// url.getShortUrl() -> http://bit.ly/fB05
+
+}}}
