@@ -1,4 +1,4 @@
-#labels bitlyj2.0
+#labels bitlyj2.0,Featured
 #A glance at the 2.0 bitlyj API, built for bit.ly's v3 api.
 
 {{{
