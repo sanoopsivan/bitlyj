@@ -1,10 +1,5 @@
-#summary One-sentence summary of this page.
 #labels bitlyj2.0
-
-= Introduction =
-
-Add your content here.
-
+#A glance at the 2.0 bitlyj API, built for bit.ly's v3 api.
 
 {{{
 
@@ -12,7 +7,7 @@ import static com.rosaloves.bitlyj.Url;
 import static com.rosaloves.bitlyj.Bitly.*;
 
 Url url = as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07")
-    .call(shorten("http://rosaloves.com/stories/view/13"));
+          .call(shorten("http://rosaloves.com/stories/view/13"));
 // url.getShortUrl() -> http://bit.ly/fB05
 
 }}}
