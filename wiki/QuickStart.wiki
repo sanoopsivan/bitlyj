@@ -3,7 +3,9 @@
 
 = Introduction =
 
-First off imports:
+*Bitlyj 2 is still alpha.*
+
+First off, imports:
 
 {{{
 import com.rosaloves.bitlyj.*;
