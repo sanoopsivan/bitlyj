@@ -3,7 +3,9 @@
 
 = Details =
 
-The details are slim until the API is stable.
+*The details are slim until the API is stable.*
+
+Here's how you roll your own method. This method would add support for the bitly's  [http://code.google.com/p/bitly-api/wiki/ApiDocumentation#/v3/validate validate] method.
 
 {{{
 public class Validate extends BitlyMethod<Boolean> {
