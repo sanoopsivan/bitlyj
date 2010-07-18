@@ -8,7 +8,7 @@ The quickest way to shorten a URL:
 as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07").call(shorten("http://rosaloves.com/"));
 }}}
 
-Breaking it down, `as` is a factory method for a Shortener instance:
+Breaking it down, `as` is a factory method for retrieving a Shortener instance:
 
 {{{
 Shortener bitly = as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07");
@@ -25,3 +25,5 @@ Once you have a shortener, you can call methods on it:
 {{{
 bitly.call(shorten("http://rosaloves.com/"));
 }}}
+
+Like `as`, `shorten` is also part of the DSL interface. http://code.google.com/p/bitlyj/source/browse/#svn/trunk/src/main/java/com/rosaloves/bitlyj
