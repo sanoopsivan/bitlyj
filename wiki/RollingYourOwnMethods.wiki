@@ -1,0 +1,29 @@
+#How to roll your own methods.
+
+= Details =
+
+The details are slim until the API is stable.
+
+{{{
+public class Validate extends BitlyMethod<Boolean> {
+
+	public Validate(String user, String apiKey) {
+		super("validate", user, apiKey);
+	}
+
+	@Override
+	public Boolean apply(Document document) {
+		String valid = document.getElementsByTagName("valid")
+			.item(0).getTextContent();
+		return Integer.parseInt(valid) == 1;
+	}
+
+}
+}}}
+
+Now that you have your own method, you can call it like any other:
+
+{{{
+Validate validate = new Validate("notbilytapi", "not_apikey");
+boolean isValid = as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07").call(validate);
+}}}
