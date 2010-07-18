@@ -12,7 +12,7 @@ import com.rosaloves.bitlyj.*;
 import static com.rosaloves.bitlyj.Bitly.*
 }}}
 
-The first will expose, among other things, all types they will result from the core methods (those supported directly in bitlyj). The static import brings in support for the DSL. You don't have to use it like this, but it's quite nice.
+The first will expose, among other things, all types that will result from the core methods (those supported directly in bitlyj). The static import brings in support for the DSL. You don't have to use it like this, but it's quite nice.
 
 The quickest way to shorten a URL:
 
