@@ -1,3 +1,7 @@
+= Bitlyj 1.0 =
+
+This page is about bitlyj 1.0, which is tied to the deprecated bitly api version 2.0.1. It is kept here for historical reference.
+
 As of the 1.0.0 release, I'm calling bitlyj stable. It's seen a good deal of usage for bit.ly and j.mp without any new issue reports, so for the current bit.ly API version (2.0.1), the library is stable.
 
 {{{
