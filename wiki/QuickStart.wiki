@@ -26,4 +26,4 @@ Once you have a shortener, you can call methods on it:
 bitly.call(shorten("http://rosaloves.com/"));
 }}}
 
-Like `as`, `shorten` is also part of the DSL interface. http://code.google.com/p/bitlyj/source/browse/#svn/trunk/src/main/java/com/rosaloves/bitlyj
+Like `as`, `shorten` is also part of the DSL interface. Peruse [http://code.google.com/p/bitlyj/source/browse/#svn/trunk/src/main/java/com/rosaloves/bitlyj Methods.java]
