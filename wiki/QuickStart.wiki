@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+{{{
+as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07").call(shorten("http://rosaloves.com/"));
+}}}
+
+{{{
+Shortener bitly = as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07");
+}}}
+
+{{{
+Shortener bitly = Bitly.as("bitlyapidemo", "R_0da49e0a9118ff35f52f629d2d71bf07");
+}}}
+
+{{{
+bitly.call(shorten("http://rosaloves.com/"));
+}}}
